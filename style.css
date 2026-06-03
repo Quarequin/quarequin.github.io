@@ -251,7 +251,7 @@ main.content img.header-logo {
   animation: logospin 5s linear infinite; /* การหมุนโลโก้ */
 }
 
-main.content img.un-invert {
+main.content img#sublogo {
   width: 40%; /* ขนาดของโลโก้ */
   height: auto; /* ให้ความสูงปรับตามอัตราส่วน */
   display: block; /* ทำให้โลโก้แสดงเป็นบล็อก */
