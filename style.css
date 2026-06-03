@@ -393,9 +393,20 @@ p.center {
 }
 
 @media (prefers-color-scheme: light) {
-  body {
+  html, body {
     background-color: var(--color-text); /* สีพื้นหลังสำหรับโหมดสว่าง */
     color: var(--color-background); /* สีข้อความสำหรับโหมดสว่าง */
+  }
+
+  p {
+    a.button {
+      color: var(--color-border); /* สีข้อความเมื่อเม้าส์ไปชี้ */
+      filter: invert(0%);
+    }
+    a.button:hover {
+      color: var(--color-button-bg); /* สีข้อความเมื่อเม้าส์ไปชี้ */
+      filter: invert(100%);
+    }
   }
 
   header.top-bar {
