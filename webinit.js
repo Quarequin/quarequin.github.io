@@ -34,7 +34,7 @@ BODY_HOME.insertAdjacentHTML('beforeend', `
     </aside>
     <main id="main-area" class="content">
         <img class="header-logo" src="logo/windstar.gif" alt="Sensory Star"/>
-        <img class="invert" src="https://latex.codecogs.com/png.image?\\huge&space;\\dpi{512}\\Huge{\\text{Q}_{\\>\\!\\!\\text{ua}}^{\\text{re}}\\>\\!\\!\\text{quin}}" width="250px" alt="Quarequin"/>
+        <img class="invert" id="sublogo" src="https://latex.codecogs.com/png.image?\\huge&space;\\dpi{512}\\Huge{\\text{Q}_{\\>\\!\\!\\text{ua}}^{\\text{re}}\\>\\!\\!\\text{quin}}" width="250px" alt="Quarequin"/>
         <h2>สวัสดีผม ภัทร</h2>
         <p>ยินดีต้อนรับสู่เว็บไซต์ของเรานะครับ</p>
         <p>ที่นี่เป็นเว็บไซต์ที่ให้ความรู้เกี่ยวกับการเขียนโปรแกรม และเทคโนโลยีต่างๆ</p>
