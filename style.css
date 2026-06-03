@@ -1,11 +1,11 @@
 
 :root {
-  --color-primary: #eb1958; /* สีหลัก */
-  --color-secondary: #ffc445; /* สีรอง */
+  --color-primary: #00DDFF; /* สีหลัก */
+  --color-secondary: #2FFBB2; /* สีรอง */
   --color-background: #0e0e0e; /* สีพื้นหลัง */
   --color-text: #ffffff; /* สีข้อความ */
-  --color-border: #eb1958; /* สีขอบ */
-  --color-button-bg: #ffc445; /* สีพื้นหลังปุ่ม */
+  --color-border: #00DDFF; /* สีขอบ */
+  --color-button-bg: #2FFBB2; /* สีพื้นหลังปุ่ม */
   --color-button-text: #ffffff; /* สีข้อความปุ่ม */
   --color-button-hover-bg: #ffffff; /* สีพื้นหลังปุ่มเมื่อเม้าส์ไปชี้ */
   --color-button-hover-text: #000000; /* สีข้อความปุ่มเมื่อเม้าส์ไปชี้ */
