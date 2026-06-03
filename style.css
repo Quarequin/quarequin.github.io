@@ -251,7 +251,7 @@ main.content img.header-logo {
   animation: logospin 5s linear infinite; /* การหมุนโลโก้ */
 }
 
-main.content img#sublogo {
+main.content img.header-sub-logo {
   width: 40%; /* ขนาดของโลโก้ */
   height: auto; /* ให้ความสูงปรับตามอัตราส่วน */
   display: block; /* ทำให้โลโก้แสดงเป็นบล็อก */
@@ -321,7 +321,7 @@ p.center {
   z-index: 2000;
 }
 
-.footer img.invert {
+.footer img.footer-sub-logo {
   width: 100px; /* ขนาดของโลโก้ */
   height: auto; /* ให้ความสูงปรับตามอัตราส่วน */
   display: inline-block; /* ทำให้โลโก้แสดงเป็นบล็อก */
