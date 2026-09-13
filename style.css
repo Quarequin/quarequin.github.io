@@ -23,7 +23,10 @@ code,pre,tt,kbd,samp {
 	font-family: ui-monospace, Monaco, monospace;
 	font-size: 14px;
 }
-html,body,img,object { image-rendering: crisp-edges; }
+html,body,img,object {
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
 hr { border-color: blue; }
 ul li { color: white; }
 a:link, a:visited {
@@ -45,6 +48,7 @@ dl dd { margin-bottom: 15px; }
 
 object.w112-h168 { width: 112px; height: 68px; }
 object.w64-h64 { width: 64px; height: 64px; }
+object.has-ascii-art { display: block; line-height: 6pt; }
 code.ascii-pic,
 pre.ascii-pic,
 tt.ascii-pic,
@@ -72,7 +76,7 @@ li.nomark {
 
 #header, #footer { margin: 0; padding: 0; }
 #header tr td { margin: 0; }
-#header tr td object { margin: 5pt 5pt 0 0; line-height: 4pt; }
+#header tr td object { margin: 5pt 5pt 0 0; }
 
 #footer object,
 #footer object *
@@ -84,8 +88,6 @@ li.nomark {
 	position: absolute;
 	margin: -32768px 0 0 -32768px;
 }
-
-@supports (image-rendering: pixelated) { html,body,img,object { image-rendering: pixelated; } }
 
 @media only screen and (max-width: 500px) {
 	#header tr td.headdef {
@@ -99,41 +101,34 @@ li.nomark {
 }
 
 @media only screen and (min-width: 600px) {
-	@supports (top: 0) {
-		body.has-nav { margin-left: 120pt; }
-		body.has-nav *.desk-hidden {
-			position: absolute;
-			margin: -32768px 0 0 -32768px;
-		}
-		body.has-nav #nav {
-			position: absolute;
-			top: 0;
-			padding: 15pt;
-			margin: 0;
-			width: 105pt;
-			height: 100%;
-			margin-left: -135pt;
-			padding-top: 15pt;
-		}
-		body.has-nav #nav li.nomark { margin-left: 0; }
-		body.has-nav #nav li ul { margin-left: 0px; }
-		@supports (position: fixed) { body.has-nav #nav { position: fixed; } }
+	body.has-nav { margin-left: 120pt; }
+	body.has-nav *.desk-hidden {
+		position: absolute;
+		margin: -32768px 0 0 -32768px;
 	}
+	body.has-nav #nav {
+		position: absolute;
+		position: fixed;
+		top: 0;
+		padding: 15pt;
+		margin: 0;
+		width: 105pt;
+		height: 100%;
+		margin-left: -135pt;
+		padding-top: 15pt;
+	}
+	body.has-nav #nav li.nomark { margin-left: 0; }
+	body.has-nav #nav li ul { margin-left: 0px; }
 	* p#webmark.has-obj { padding-left: 80px; }
 	#footer object { margin-top: -49px; }
-	body { margin-top: 0px; }
 }
 
 @media only screen and (min-width: 650px) {
-	@supports (top: 0) {
-		body.has-nav { margin-left: 145pt; }
-		body.has-nav #nav { width: 130pt; margin-left: -160pt; }
-	}
+	body.has-nav { margin-left: 145pt; }
+	body.has-nav #nav { width: 130pt; margin-left: -160pt; }
 }
 
 @media only screen and (min-width: 700px) {
-	@supports (top: 0) {
-		body.has-nav { margin-left: 170pt; }
-		body.has-nav #nav { width: 155pt; margin-left: -185pt; }
-	}
+	body.has-nav { margin-left: 170pt; }
+	body.has-nav #nav { width: 155pt; margin-left: -185pt; }
 }
