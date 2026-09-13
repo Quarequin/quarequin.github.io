@@ -2,7 +2,7 @@
 html {
 	background-color: navy;
 	color: white;
-	background-image: url("pic/mstbg.gif");
+	background-image: url(".asset/i/mstbg.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
