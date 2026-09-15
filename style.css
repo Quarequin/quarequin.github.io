@@ -1,21 +1,20 @@
 
-html {
+body {
 	background-color: navy;
 	color: white;
-	background-image: url("-asset/i/mstbg.gif");
+	margin: 0;
+	padding: 6pt;
+/*	background-image: url("-asset/i/mstbg.gif");
 	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
+	background-position: 50%;
+	background-attachment: fixed;*/
 }
 
 html,body {
 	word-wrap: break-word;
-	padding: 0;
-	margin: 0;
 	font-family: ui-sans-serif, sans-serif;
 	font-size: 14px;
 }
-body { padding: 15pt; }
 code,pre,tt,kbd,samp {
 	white-space: pre-wrap;
 	word-wrap: break-word;
@@ -27,7 +26,7 @@ html,body,img,object {
 	image-rendering: crisp-edges;
 	image-rendering: pixelated;
 }
-hr { border-color: blue; }
+hr { border-color: teal; }
 ul li { color: white; }
 a:link, a:visited {
 	color: cyan;
@@ -48,7 +47,8 @@ dl dd { margin-bottom: 15px; }
 
 object.w112-h168 { width: 112px; height: 68px; }
 object.w64-h64 { width: 64px; height: 64px; }
-object.has-ascii-art { display: block; line-height: 6pt; }
+object.has-ascii-art { display: block; padding: 0; color: cyan; }
+object.has-ascii-art *.ascii-pic { word-break: keep-all; }
 code.ascii-pic,
 pre.ascii-pic,
 tt.ascii-pic,
@@ -76,7 +76,7 @@ li.nomark {
 
 #header, #footer { margin: 0; padding: 0; }
 #header tr td { margin: 0; }
-#header tr td object { margin: 5pt 5pt 0 0; }
+body.i-404 #header tr td h1 { padding: 5px; margin: 2pt 0 -2pt 0; }
 
 #footer object,
 #footer object *
@@ -90,32 +90,29 @@ li.nomark {
 }
 
 @media only screen and (max-width: 500px) {
+	#header tr td.logo-left.v-top { vertical-align: top; display: block; }
 	#header tr td.headdef {
 		display: block;
-		float: left;
-		clear: both;
 		padding: 0;
-		margin-bottom: -9pt;
+		margin: 0 0 -8pt -10px;
 	}
-	#header tr td.headdef.w112-h68 { margin-top: 50pt; margin-left: -89pt; }
 }
 
 @media only screen and (min-width: 600px) {
-	body.has-nav { margin-left: 120pt; }
+	body.has-nav { width: 80%; margin-left: 18%; }
 	body.has-nav *.desk-hidden {
 		position: absolute;
 		margin: -32768px 0 0 -32768px;
 	}
 	body.has-nav #nav {
 		position: absolute;
-		position: fixed;
+		/*position: fixed;*/
 		top: 0;
-		padding: 15pt;
+		padding: 6pt;
 		margin: 0;
-		width: 105pt;
+		width: 17%;
 		height: 100%;
-		margin-left: -135pt;
-		padding-top: 15pt;
+		margin-left: -19%;
 	}
 	body.has-nav #nav li.nomark { margin-left: 0; }
 	body.has-nav #nav li ul { margin-left: 0px; }
@@ -124,11 +121,11 @@ li.nomark {
 }
 
 @media only screen and (min-width: 650px) {
-	body.has-nav { margin-left: 145pt; }
-	body.has-nav #nav { width: 130pt; margin-left: -160pt; }
+	body.has-nav { width: 75%; margin-left: 23%; }
+	body.has-nav #nav { width: 22%; margin-left: -24%; }
 }
 
 @media only screen and (min-width: 700px) {
-	body.has-nav { margin-left: 170pt; }
-	body.has-nav #nav { width: 155pt; margin-left: -185pt; }
+	body.has-nav { width: 70%; margin-left: 28%; }
+	body.has-nav #nav { width: 27%; margin-left: -29%; }
 }
