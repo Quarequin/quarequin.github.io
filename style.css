@@ -1,12 +1,12 @@
 
 body {
-	background-color: navy;
-	color: white;
 	margin: 0;
 	padding: 6pt;
 }
 
 html,body {
+	background-color: navy;
+	color: white;
 	word-wrap: break-word;
 	font-family: ui-sans-serif, sans-serif;
 	font-size: 14px;
