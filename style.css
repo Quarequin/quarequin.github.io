@@ -35,11 +35,17 @@ a:active, a:hover {
 dl { margin-bottom: 0px; }
 dl dd { margin-bottom: 15px; }
 
-*.no-topmar { margin-top: 0; }
-*.hl { background-color: teal; }
+* object * { font-size: 12px; padding: 0; margin: 0; }
 * p#webmark { margin: 0; padding: 0; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
-* object * { font-size: 12px; padding: 0; margin: 0; }
+*.no-topmar { margin-top: 0; }
+*.hl { background-color: teal; }
+*.no-ui {
+	font-size: 0px;
+	line-height: 0px;
+	position: absolute;
+	margin: -32768px 0 0 -32768px;
+}
 
 object.w112-h168 { width: 112px; height: 68px; }
 object.w64-h64 { width: 64px; height: 64px; }
@@ -51,7 +57,7 @@ tt.ascii-pic,
 kbd.ascii-pic,
 samp.ascii-pic
 { font-size: 5pt }
-
+body.i-404 #header tr td h1 { padding: 5px; margin: -2pt 0 2pt 0; }
 li.nomark {
 	list-style: none;
 	margin: 0;
@@ -72,18 +78,11 @@ li.nomark {
 
 #header, #footer { margin: 0; padding: 0; }
 #header tr td { margin: 0; }
-body.i-404 #header tr td h1 { padding: 5px; margin: -2pt 0 2pt 0; }
+#header tr td.headdef table tr td p { margin: -14px 0; margin-top: -10px; }
 
 #footer object,
 #footer object *
 { margin-top: 0px; }
-
-*.no-ui {
-	font-size: 0px;
-	line-height: 0px;
-	position: absolute;
-	margin: -32768px 0 0 -32768px;
-}
 
 @media only screen and (max-width: 500px) {
 	#header tr td.logo-left.v-top { display: block; }
