@@ -92,7 +92,8 @@ li.nomark {
 		margin-top: -5pt;
 		margin-bottom: -5pt;
 	}
-	#header tr td.headdef table { margin-left: -5px; }
+	#header tr td.headdef table { display: block; margin-left: -5px; }
+	#header tr td.headdef table tr td p { margin: 0; }
 }
 
 @media only screen and (min-width: 600px) {
