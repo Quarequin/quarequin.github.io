@@ -14,7 +14,6 @@ html,body {
 code,pre,tt,kbd,samp {
 	white-space: pre-wrap;
 	word-wrap: break-word;
-	tab-size: 31px;
 	font-family: ui-monospace, Monaco, monospace;
 	font-size: 14px;
 }
@@ -49,15 +48,16 @@ dl dd { margin-bottom: 15px; }
 
 object.w112-h168 { width: 112px; height: 68px; }
 object.w64-h64 { width: 64px; height: 64px; }
-object.has-ascii-art { display: block; padding: 0; color: cyan; }
-object.has-ascii-art *.ascii-pic { word-break: keep-all; }
-code.ascii-pic,
-pre.ascii-pic,
-tt.ascii-pic,
-kbd.ascii-pic,
-samp.ascii-pic
-{ font-size: 5pt }
-body.i-404 #header tr td h1 { padding: 5px; margin: -2pt 0 2pt 0; }
+object.has-ascii-art { padding: 0; }
+object.has-ascii-art *.ascii-pic { margin: 0; }
+object.header.left { float: left; margin: -1.48pt 5pt 0 0; }
+*.ascii-pic, *.ascii-pic *
+{
+    font-size: 10px;
+    white-space: normal;
+}
+*.header.right { margin: 14px 0; }
+body.i-404 h1.header.right { padding: 0; margin: -14px 0; }
 li.nomark {
 	list-style: none;
 	margin: 0;
@@ -76,24 +76,9 @@ li.nomark {
 	padding-left: 20px;
 }
 
-#header, #footer { margin: 0; padding: 0; }
-#header tr td { margin: 0; }
-#header tr td.headdef table tr td p { margin: -14px 0; margin-top: -10px; }
-
-#footer object,
-#footer object *
-{ margin-top: 0px; }
-
 @media only screen and (max-width: 500px) {
-	#header tr td.logo-left.v-top { display: block; }
-	#header tr td.headdef {
-		display: block;
-		padding: 0;
-		margin-top: -5pt;
-		margin-bottom: -5pt;
-	}
-	#header tr td.headdef table { display: block; margin-left: -5px; }
-	#header tr td.headdef table tr td p { margin: 0; }
+	object.header.left { clear: both; float: none; display: block; }
+	*.header.right { margin: 5pt 0; }
 }
 
 @media only screen and (min-width: 600px) {
@@ -115,7 +100,9 @@ li.nomark {
 	body.has-nav #nav li.nomark { margin-left: 0; }
 	body.has-nav #nav li ul { margin-left: 0px; }
 	* p#webmark.has-obj { padding-left: 80px; }
-	#footer object { margin-top: -49px; }
+	object.footer { display: block; margin-top: -49px; }
+	object.footer.has-ascii-art *.ascii-pic *
+    { font-size: 6px; }
 }
 
 @media only screen and (min-width: 615px) {
