@@ -52,12 +52,9 @@ object.has-ascii-art { padding: 0; }
 object.has-ascii-art *.ascii-pic { margin: 0; }
 object.header.left { float: left; margin: -1.48pt 5pt 0 0; }
 *.ascii-pic, *.ascii-pic *
-{
-    font-size: 10px;
-    white-space: normal;
-}
+{ font-size: 10px; /*white-space: normal;*/ }
 *.header.right { margin: 14px 0; }
-body.i-404 h1.header.right { padding: 0; margin: -14px 0; }
+body.i-404 h1.header { padding: 0; margin: -2pt 0; }
 li.nomark {
 	list-style: none;
 	margin: 0;
