@@ -17,10 +17,6 @@ code,pre,tt,kbd,samp {
 	font-family: ui-monospace, Monaco, monospace;
 	font-size: 14px;
 }
-html,body,img,object {
-	image-rendering: crisp-edges;
-	image-rendering: pixelated;
-}
 hr { border-color: teal; }
 ul li { color: white; }
 a:link, a:visited {
@@ -33,27 +29,14 @@ a:active, a:hover {
 }
 dl { margin-bottom: 0px; }
 dl dd { margin-bottom: 15px; }
-
-* object * { font-size: 12px; padding: 0; margin: 0; }
-* p#webmark { margin: 0; padding: 0; }
-* p#webmark * { padding: 0 5px 0 0; margin: 0; }
-*.no-topmar { margin-top: 0; }
-*.hl { background-color: teal; }
-*.no-ui {
-	font-size: 0px;
-	line-height: 0px;
-	position: absolute;
-	margin: -32768px 0 0 -32768px;
-}
-
+#nav {margin-left: 0px; }
+#nav li,
+#nav li ul li { margin-bottom: 5px; }
+#nav li ul { margin-left: 40px; padding-left: 20px; }
 object.w112-h168 { width: 112px; height: 68px; }
 object.w64-h64 { width: 64px; height: 64px; }
 object.has-ascii-art { padding: 0; }
 object.has-ascii-art *.ascii-pic { margin: 0; }
-object.header.left { float: left; margin: -1.48pt 5pt 0 0; }
-*.ascii-pic, *.ascii-pic *
-{ font-size: 10px; /*white-space: normal;*/ }
-*.header.right { margin: 14px 0; }
 body.i-404 h1.header { padding: 0; margin: -2pt 0; }
 li.nomark {
 	list-style: none;
@@ -62,19 +45,28 @@ li.nomark {
 	padding: 0;
 }
 
-#nav {
-	position: static;
-	margin-left: 0px;
+* {
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
 }
-#nav li,
-#nav li ul li { margin-bottom: 5px; }
-#nav li ul {
-	margin-left: 40px;
-	padding-left: 20px;
+* object * { font-size: 12px; padding: 0; margin: 0; }
+* p#webmark { margin: 0; padding: 0; }
+* p#webmark * { padding: 0 5px 0 0; margin: 0; }
+*.header.left { float: left; margin: 0 5pt 0 0; }
+*.ascii-pic, *.ascii-pic *
+{ font-size: 7px; }
+*.header.right { margin: 14px 0; }
+hr.first { margin-top: 0; margin-bottom: 4pt; }
+*.hl { background-color: teal; }
+*.no-ui {
+	font-size: 0px;
+	line-height: 0px;
+	position: absolute;
+	margin: -32768px 0 0 -32768px;
 }
 
 @media only screen and (max-width: 500px) {
-	object.header.left { clear: both; float: none; display: block; }
+	*.header.left { clear: both; float: none; display: block; }
 	*.header.right { margin: 5pt 0; }
 }
 
@@ -96,10 +88,10 @@ li.nomark {
 	}
 	body.has-nav #nav li.nomark { margin-left: 0; }
 	body.has-nav #nav li ul { margin-left: 0px; }
-	* p#webmark.has-obj { padding-left: 80px; }
 	object.footer { display: block; margin-top: -49px; }
 	object.footer.has-ascii-art *.ascii-pic *
-    { font-size: 6px; }
+	{ font-size: 6px; }
+	* p#webmark.has-obj { padding-left: 80px; }
 }
 
 @media only screen and (min-width: 615px) {
