@@ -64,12 +64,12 @@ hr.first { margin-top: 0; margin-bottom: 4pt; }
 	position: absolute;
 	margin: -32768px 0 0 -32768px;
 }
-/*
+
 @media only screen and (max-width: 500px) {
 	*.header.left { clear: both; float: none; display: block; }
 	*.header.right { margin: 5pt 0; }
 }
-*/
+
 @media only screen and (min-width: 600px) {
 	body.has-nav { margin-left: 120pt; }
 	body.has-nav *.desk-hidden {
