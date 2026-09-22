@@ -55,7 +55,7 @@ li.nomark {
 *.header.left { float: left; margin: 0 5pt 0 0; }
 *.ascii-pic, *.ascii-pic *
 { font-size: 7px; }
-*.header.right { margin: 14px 0; }
+*.header.right { margin: 11pt 0; }
 hr.first { margin-top: 0; margin-bottom: 4pt; }
 *.hl { background-color: teal; }
 *.no-ui {
