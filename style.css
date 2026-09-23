@@ -52,10 +52,10 @@ li.nomark {
 * object * { font-size: 12px; padding: 0; margin: 0; }
 * p#webmark { margin: 0; padding: 0; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
-*.header.left { clear: both; float: none; display: block; }
+body.has-hf *.header-fleft { clear: both; float: none; display: block; }
 *.ascii-pic, *.ascii-pic *
 { font-size: 7px; }
-*.header.right { margin: 5px 0; }
+body.has-hf *.header { margin: 5px 0; }
 hr.first { margin-top: 0; margin-bottom: 4pt; }
 *.hl { background-color: teal; }
 *.no-ui {
@@ -66,8 +66,8 @@ hr.first { margin-top: 0; margin-bottom: 4pt; }
 }
 
 @media only screen and (min-width: 500px) {
-	*.header.left { float: left; margin: 2px 5pt 2px 0; }
-	*.header.right { margin: 14px 0; }
+	body.has-hf *.header-fleft { float: left; margin: 2px 5pt 2px 0; }
+	body.has-hf *.header { margin: 14px 0; }
 }
 
 @media only screen and (min-width: 600px) {
