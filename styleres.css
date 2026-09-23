@@ -1,7 +1,7 @@
 
 @media only screen and (min-width: 500px) {
-	*.header-fleft { float: left; margin: 2px 5pt 2px 0; }
-	*.header { margin: 14px 0; }
+	body.has-hf *.header-fleft { float: left; margin: 2px 5pt 2px 0; }
+	body.has-hf *.header { margin: 14px 0; }
 }
 
 @media only screen and (min-width: 600px) {

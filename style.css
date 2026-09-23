@@ -56,14 +56,14 @@ li.nomark {
 }
 * p#webmark { margin: 0; padding: 0; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
-*.header-fleft {
+body.has-hf *.header-fleft {
 	clear: both;
 	float: none;
 	display: block;
 }
 *.ascii-pic, *.ascii-pic *
 { font-size: 7px; }
-*.header { margin: 5px 0; }
+body.has-hf *.header { margin: 5px 0; }
 hr.first { margin-top: 0; margin-bottom: 4pt; }
 *.hl { background-color: teal; }
 *.no-ui {
