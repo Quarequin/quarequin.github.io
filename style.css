@@ -49,13 +49,21 @@ li.nomark {
 	image-rendering: crisp-edges;
 	image-rendering: pixelated;
 }
-* object * { font-size: 12px; padding: 0; margin: 0; }
+* object * {
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+}
 * p#webmark { margin: 0; padding: 0; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
-body.has-hf *.header-fleft { clear: both; float: none; display: block; }
+*.header-fleft {
+	clear: both;
+	float: none;
+	display: block;
+}
 *.ascii-pic, *.ascii-pic *
 { font-size: 7px; }
-body.has-hf *.header { margin: 5px 0; }
+*.header { margin: 5px 0; }
 hr.first { margin-top: 0; margin-bottom: 4pt; }
 *.hl { background-color: teal; }
 *.no-ui {
@@ -63,63 +71,4 @@ hr.first { margin-top: 0; margin-bottom: 4pt; }
 	line-height: 0px;
 	position: absolute;
 	margin: -32768px 0 0 -32768px;
-}
-
-@media only screen and (min-width: 500px) {
-	body.has-hf *.header-fleft { float: left; margin: 2px 5pt 2px 0; }
-	body.has-hf *.header { margin: 14px 0; }
-}
-
-@media only screen and (min-width: 600px) {
-	body.has-nav { margin-left: 120pt; }
-	body.has-nav *.desk-hidden {
-		position: absolute;
-		margin: -32768px 0 0 -32768px;
-	}
-	body.has-nav #nav {
-		position: absolute;
-		position: fixed;
-		top: 0;
-		padding: 6pt;
-		margin: 0;
-		margin-left: -126pt;
-		width: 114pt;
-		height: 100%;
-	}
-	body.has-nav #nav li.nomark { margin-left: 0; }
-	body.has-nav #nav li ul { margin-left: 0px; }
-	object.footer { display: block; margin-top: -49px; }
-	object.footer.has-ascii-art *.ascii-pic *
-	{ font-size: 6px; }
-	* p#webmark.has-obj { padding-left: 80px; }
-}
-
-@media only screen and (min-width: 615px) {
-	body.has-nav { margin-left: 125pt; }
-	body.has-nav #nav { width: 119pt; margin-left: -131pt; }
-}
-
-@media only screen and (min-width: 630px) {
-	body.has-nav { margin-left: 130pt; }
-	body.has-nav #nav { width: 124pt; margin-left: -136pt; }
-}
-
-@media only screen and (min-width: 645px) {
-	body.has-nav { margin-left: 135pt; }
-	body.has-nav #nav { width: 129pt; margin-left: -141pt; }
-}
-
-@media only screen and (min-width: 660px) {
-	body.has-nav { margin-left: 140pt; }
-	body.has-nav #nav { width: 134pt; margin-left: -146pt; }
-}
-
-@media only screen and (min-width: 675px) {
-	body.has-nav { margin-left: 145pt; }
-	body.has-nav #nav { width: 139pt; margin-left: -151pt; }
-}
-
-@media only screen and (min-width: 690px) {
-	body.has-nav { margin-left: 150pt; }
-	body.has-nav #nav { width: 144pt; margin-left: -156pt; }
 }
