@@ -1,7 +1,7 @@
 
 @media only screen and (min-width: 500px) {
-	body.has-hf *.header-fleft { float: left; margin: 3pt 5pt 0 0; }
-	body.has-hf *.header { margin: 9pt 0; }
+	body.has-hf *.header-fleft { float: left; margin: 3px 5pt 3px 0; }
+	body.has-hf *.header { margin: 10px 0; }
 	object.footer.has-ascii-art *.ascii-pic *
 	{ font-size: 6px; }
 	* p#webmark.has-obj { position: absolute; margin-left: 74px; }

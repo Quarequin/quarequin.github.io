@@ -9,7 +9,7 @@ body {
 html,body {
 	word-wrap: break-word;
 	font-family: ui-sans-serif, sans-serif;
-	font-size: 14px;
+	font-size: 14.248px;
 }
 code,pre,tt,kbd,samp {
 	white-space: pre-wrap;
@@ -66,6 +66,7 @@ body.has-hf *.header-fleft {
 { font-size: 7px; }
 body.has-hf *.header { margin: 5px 0; }
 hr.first { margin-top: 0; margin-bottom: 0; }
+hr.hend { clear: both; margin-top: 0; }
 *.hl { background-color: teal; }
 *.no-ui {
 	font-size: 0px;
