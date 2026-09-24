@@ -60,11 +60,12 @@ body.has-hf *.header-fleft {
 	clear: both;
 	float: none;
 	display: block;
+	margin: 5px 0;
 }
 *.ascii-pic, *.ascii-pic *
 { font-size: 7px; }
 body.has-hf *.header { margin: 5px 0; }
-hr.first { margin-top: 0; margin-bottom: 4pt; }
+hr.first { margin-top: 0; margin-bottom: 0; }
 *.hl { background-color: teal; }
 *.no-ui {
 	font-size: 0px;

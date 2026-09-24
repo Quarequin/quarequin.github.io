@@ -1,7 +1,10 @@
 
 @media only screen and (min-width: 500px) {
-	body.has-hf *.header-fleft { float: left; margin: 2px 5pt 2px 0; }
-	body.has-hf *.header { margin: 14px 0; }
+	body.has-hf *.header-fleft { float: left; margin: 3pt 5pt 0 0; }
+	body.has-hf *.header { margin: 9pt 0; }
+	object.footer.has-ascii-art *.ascii-pic *
+	{ font-size: 6px; }
+	* p#webmark.has-obj { position: absolute; margin-left: 74px; }
 }
 
 @media only screen and (min-width: 600px) {
@@ -22,10 +25,6 @@
 	}
 	body.has-nav #nav li.nomark { margin-left: 0; }
 	body.has-nav #nav li ul { margin-left: 0px; }
-	object.footer { display: block; margin-top: -49px; }
-	object.footer.has-ascii-art *.ascii-pic *
-	{ font-size: 6px; }
-	* p#webmark.has-obj { padding-left: 80px; }
 }
 
 @media only screen and (min-width: 615px) {
