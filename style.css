@@ -37,6 +37,7 @@ object.w112-h168 { width: 112px; height: 68px; }
 object.w64-h64 { width: 64px; height: 64px; }
 object.has-ascii-art { padding: 0; }
 object.has-ascii-art *.ascii-pic { margin: 0; }
+body.i-404 *.header-f { margin: 5pt 0;}
 body.i-404 h1.header { padding: 0; margin: -2pt 0; }
 li.nomark {
 	list-style: none;
