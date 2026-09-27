@@ -25,6 +25,12 @@
 	}
 	body.has-nav #nav li.nomark { margin-left: 0; }
 	body.has-nav #nav li ul { margin-left: 0px; }
+	li.nomark {
+		list-style: none;
+		margin: 0;
+		margin-left: -40px;
+		padding: 0;
+	}
 }
 
 @media only screen and (min-width: 615px) {
