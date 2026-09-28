@@ -70,3 +70,5 @@ hr.hend { clear: both; margin-top: 0; }
 	position: absolute;
 	margin: -32768px 0 0 -32768px;
 }
+
+@import "http://quarequin.github.io/styleres.css" all;
