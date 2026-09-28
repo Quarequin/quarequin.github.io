@@ -1,3 +1,4 @@
+@import "./styleres.css";
 
 body {
 	background-color: navy;
@@ -71,4 +72,10 @@ hr.hend { clear: both; margin-top: 0; }
 	margin: -32768px 0 0 -32768px;
 }
 
-@import "styleres.css" all;
+@media only screen and (min-width: 500px) {
+	body.has-hf *.header-fleft { float: left; margin: 3px 5pt 3px 0; }
+	body.has-hf *.header { margin: 10px 0; }
+	object.footer.has-ascii-art *.ascii-pic *
+	{ font-size: 6px; }
+	* p#webmark.has-obj { position: absolute; margin-left: 74px; }
+}
