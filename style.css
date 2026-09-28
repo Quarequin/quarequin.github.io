@@ -33,7 +33,7 @@ dl dd { margin-bottom: 15px; }
 #nav li,
 #nav li ul li { margin-bottom: 5px; }
 #nav li ul { margin-left: 40px; padding-left: 20px; }
-li.nomark { margin-right: 40px; }
+li.nomark, li.nomark-f { margin-right: 40px; }
 object.w112-h168 { width: 112px; height: 68px; }
 object.w64-h64 { width: 64px; height: 64px; }
 object.has-ascii-art { padding: 0; }
