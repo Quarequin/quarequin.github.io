@@ -35,6 +35,7 @@ dl dd { margin-bottom: 15px; }
 #nav li ul li { margin-bottom: 5px; }
 #nav li ul { margin-left: 40px; padding-left: 20px; }
 ul.noind, li.noind { margin-left: -40px; }
+ul.hind, li.hind { margin-left: -20px; }
 object.w112-h168 { width: 112px; height: 68px; }
 object.w64-h64 { width: 64px; height: 64px; }
 object.has-ascii-art { padding: 0; }
@@ -55,6 +56,7 @@ body.i-404 h1.header { padding: 0; margin: -2pt 0; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
 *.rmar, *.rmar-p { margin-right: 40px; }
 *.no-vmar { margin-top: 0; margin-bottom: 0; }
+*.ztmar { margin-top: 0; }
 body.has-hf *.header-fleft {
 	clear: both;
 	float: none;
