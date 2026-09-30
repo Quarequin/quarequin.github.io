@@ -15,8 +15,8 @@
 		width: 114pt;
 		height: 100%;
 	}
-	body.has-nav #nav li.nomark { margin-left: 0; margin-right: 0; }
-	body.has-nav #nav li ul { margin-left: 0; }
+	body.has-nav #nav *.noind-desktop { margin-left: 0; }
+	body.has-nav #nav *.rmar-p { margin-right: 0; }
 	li.nomark {
 		list-style: none;
 		margin: 0;
