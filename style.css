@@ -54,6 +54,7 @@ body.i-404 h1.header { padding: 0; margin: -2pt 0; }
 * p#webmark { margin: 0; padding: 0; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
 *.rmar, *.rmar-p { margin-right: 40px; }
+*.no-vmar { margin-top: 0; margin-bottom: 0; }
 body.has-hf *.header-fleft {
 	clear: both;
 	float: none;
