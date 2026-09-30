@@ -60,7 +60,9 @@ body.has-hf *.header-fleft {
 	margin: 5px 0;
 }
 *.ascii-pic, *.ascii-pic *
-{ font-size: 7px; }
+{ font-size: 6px; }
+*.ascii-pic-mini, *.ascii-pic-mini *
+{ font-size: 10px; }
 body.has-hf *.header { margin: 5px 0; }
 hr.first { margin-top: 0; margin-bottom: 0; }
 hr.hend { clear: both; margin-top: 0; }
