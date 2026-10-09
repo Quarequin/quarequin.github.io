@@ -3,8 +3,9 @@
 body {
 	background-color: navy;
 	color: white;
-	margin: 0;
+	margin: 0 auto;
 	padding: 6pt;
+	max-width: 1000px;
 }
 
 html,body {
@@ -58,16 +59,17 @@ body.i-404 h1.header { padding: 0; margin: -2pt 0; }
 *.no-vmar { margin-top: 0; margin-bottom: 0; }
 *.ztmar { margin-top: 0; }
 body.has-hf *.header-fleft {
-	clear: both;
-	float: none;
-	display: block;
+	float: left;
+	margin: 5px 5px 5px 0;
+}
+*.ascii-pic { font-size: 6px; }
+*.ascii-pic-mini { font-size: 10px; }
+body.has-hf *.header-bleft {
+	float: left;
+	width: 70%;
+	min-width: 350px;
 	margin: 5px 0;
 }
-*.ascii-pic, *.ascii-pic *
-{ font-size: 6px; }
-*.ascii-pic-mini, *.ascii-pic-mini *
-{ font-size: 10px; }
-body.has-hf *.header { margin: 5px 0; }
 hr.first { margin-top: 0; margin-bottom: 0; }
 hr.hend { clear: both; margin-top: 0; }
 *.hl { background-color: teal; }
@@ -77,11 +79,12 @@ hr.hend { clear: both; margin-top: 0; }
 	position: absolute;
 	margin: -32768px 0 0 -32768px;
 }
+object.main-descript.has-ascii-art .ascii-pic * { font-size: 6px; }
 
-@media only screen and (min-width: 500px) {
-	body.has-hf *.header-fleft { float: left; margin: 3px 5pt 3px 0; }
-	body.has-hf *.header { margin: 10px 0; }
-	object.footer.has-ascii-art *.ascii-pic *
-	{ font-size: 6px; }
-	* p#webmark.has-obj { position: absolute; margin-left: 74px; }
+@media only screen and (max-width: 350px) {
+	body.has-hf *.header-bleft {
+		clear: both;
+		width: 100%;
+		min-width: 0;
+	}
 }

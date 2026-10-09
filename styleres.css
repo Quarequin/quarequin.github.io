@@ -1,6 +1,6 @@
 
 @media only screen and (min-width: 600px) {
-	body.has-nav { margin-left: 120pt; }
+	body.has-nav { padding-left: 125pt; max-width: 600pt; }
 	body.has-nav *.desk-hidden {
 		position: absolute;
 		margin: -32768px 0 0 -32768px;
@@ -26,31 +26,31 @@
 }
 
 @media only screen and (min-width: 615px) {
-	body.has-nav { margin-left: 125pt; }
+	body.has-nav { padding-left: 130pt; }
 	body.has-nav #nav { width: 119pt; margin-left: -131pt; }
 }
 
 @media only screen and (min-width: 630px) {
-	body.has-nav { margin-left: 130pt; }
+	body.has-nav { padding-left: 135pt; }
 	body.has-nav #nav { width: 124pt; margin-left: -136pt; }
 }
 
 @media only screen and (min-width: 645px) {
-	body.has-nav { margin-left: 135pt; }
+	body.has-nav { padding-left: 140pt; }
 	body.has-nav #nav { width: 129pt; margin-left: -141pt; }
 }
 
 @media only screen and (min-width: 660px) {
-	body.has-nav { margin-left: 140pt; }
+	body.has-nav { padding-left: 145pt; }
 	body.has-nav #nav { width: 134pt; margin-left: -146pt; }
 }
 
 @media only screen and (min-width: 675px) {
-	body.has-nav { margin-left: 145pt; }
+	body.has-nav { padding-left: 150pt; }
 	body.has-nav #nav { width: 139pt; margin-left: -151pt; }
 }
 
 @media only screen and (min-width: 690px) {
-	body.has-nav { margin-left: 150pt; }
+	body.has-nav { padding-left: 155pt; }
 	body.has-nav #nav { width: 144pt; margin-left: -156pt; }
 }
