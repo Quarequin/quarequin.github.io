@@ -33,9 +33,14 @@ a:active, a:hover {
 	padding: 0;
 	margin: 0;
 }
+* {
+	text-decoration: none;
+/*	image-rendering: crisp-edges;
+	image-rendering: pixelated;*/
+}
 dl { margin-bottom: 0px; }
 dl dd { margin-bottom: 15px; }
-#nav {margin-left: 0px; }
+#nav { margin-left: 0px; }
 #nav li,
 #nav li ul li { margin-bottom: 5px; }
 #nav li ul { margin-left: 40px; padding-left: 20px; }
@@ -44,16 +49,6 @@ ul.hind, li.hind { margin-left: -20px; }
 /*object.w112-h168 { width: 112px; height: 68px; }*/
 /*object.w64-h64 { width: 64px; height: 64px; }*/
 object br:first-child { position: absolute; margin: -100% 0 0 -100%; }
-*.has-ascii-art { padding: 0; margin-top: -14px; }
-*.has-ascii-art *.ascii-pic { display: block; margin: 0; padding: 0; white-space: pre; }
-body.i-404 *.header-f { margin: 5pt 0;}
-body.i-404 h1.header { padding: 0; margin: -2pt 0; }
-
-* {
-	text-decoration: none;
-/*	image-rendering: crisp-edges;
-	image-rendering: pixelated;*/
-}
 * p#webmark { margin: 0; padding: 0; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
 *.rmar, *.rmar-p { margin-right: 40px; }
@@ -63,31 +58,23 @@ body.has-hf *.header-fleft {
 	float: left;
 	margin: 5px 5px 5px 0;
 }
-*.has-ascii-art *.nlh { line-height: 0; }
-*.has-ascii-art *.lh2 { line-height: 2px; }
-*.has-ascii-art *.ct { text-align: center; }
-*.has-ascii-art *.ascii-mini { margin: 0 0 -11px 0; font-size: 5px; }
-*.has-ascii-art *.ascii-norm { margin: 0 0 -14.748px 0; font-size: 7px; }
-*.has-ascii-art *.ascii-big { margin: 0 0 -26px 0; font-size: 11px; }
-body.has-hf *.header-bleft {
-	float: left;
-	width: 70%;
-	min-width: 500px;
-	margin: 5px 0;
-}
 hr.first { margin-top: 0; margin-bottom: 0; }
 hr.hend { clear: both; margin-top: 0; }
-*.hl { background-color: teal; }
-*.no-ui {
+.hl { background-color: teal; }
+.no-ui {
 	font-size: 0px;
 	line-height: 0px;
 	position: absolute;
 	margin: -32768px 0 0 -32768px;
 }
-object.main-descript.has-ascii-art .ascii-pic * { font-size: 6px; }
+*.has-ascii-art *.ascii-pic { white-space: pre; }
+*.has-ascii-art *.ct { text-align: center; }
+*.has-ascii-art *.ascii-mini { font-size: 5px; }
+*.has-ascii-art *.ascii-norm { font-size: 6.48px; }
+*.has-ascii-art *.ascii-big { font-size: 11px; }
 
 @media only screen and (max-width: 350px) {
-	body.has-hf *.header-bleft {
+	body.has-hf .header-bleft {
 		clear: both;
 		width: 100%;
 		min-width: 0;
