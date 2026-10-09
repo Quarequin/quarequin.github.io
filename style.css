@@ -6,7 +6,6 @@ body {
 	margin: 0 auto;
 	padding: 6pt;
 	max-width: 1000px;
-	overflow-x: hidden;
 }
 
 html,body {
@@ -62,7 +61,7 @@ body.has-hf *.header-fleft {
 body.has-hf *.header-bleft {
 	float: left;
 	width: 70%;
-	min-width: 500px;
+	min-width: 380px;
 	margin: 5px 0;
 }
 hr.first { margin-top: 0; margin-bottom: 0; }
