@@ -12,6 +12,7 @@ html,body {
 	word-wrap: break-word;
 	font-family: ui-sans-serif, sans-serif;
 	font-size: 14.248px;
+	overflow-x: hidden;
 }
 code,pre,tt,kbd,samp {
 	white-space: pre-wrap;
@@ -60,9 +61,11 @@ body.has-hf *.header-fleft {
 }
 body.has-hf *.header-bleft {
 	float: left;
-	width: 70%;
-	min-width: 380px;
+	width: 60%;
+	min-width: 370px;
+	display: inline-block;
 	margin: 5px 0;
+	overflow: hidden;
 }
 hr.first { margin-top: 0; margin-bottom: 0; }
 hr.hend { clear: both; margin-top: 0; }
