@@ -67,7 +67,7 @@ body.has-hf *.header-fleft {
 body.has-hf *.header-bleft {
 	float: left;
 	width: 70%;
-	min-width: 350px;
+	min-width: 500px;
 	margin: 5px 0;
 }
 hr.first { margin-top: 0; margin-bottom: 0; }
