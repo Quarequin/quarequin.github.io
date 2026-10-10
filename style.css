@@ -49,6 +49,7 @@ ul.noind, li.noind { margin-left: -40px; }
 ul.hind, li.hind { margin-left: -20px; }
 /*object.w112-h168 { width: 112px; height: 68px; }*/
 /*object.w64-h64 { width: 64px; height: 64px; }*/
+object { padding: 0; }
 object br:first-child { position: absolute; margin: -100% 0 0 -100%; }
 * p#webmark { margin: 0; padding: 0; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
