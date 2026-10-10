@@ -16,7 +16,6 @@
 		height: 100%;
 	}
 	body.has-nav #nav *.noind-desktop { margin-left: 0; }
-	body.has-nav #nav *.rmar-p { margin-right: 0; }
 	li.nomark {
 		list-style: none;
 		margin: 0;

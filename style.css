@@ -54,7 +54,7 @@ object.border { border-width: 2px; border-style: outset; border-color: blue; }
 object br:first-child { position: absolute; margin: -100% 0 0 -100%; }
 * p#webmark { margin: 0; padding: 0; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
-*.rmar, *.rmar-p { margin-right: 40px; }
+*.rmar { margin-right: 40px; }
 *.no-vmar { margin-top: 0; margin-bottom: 0; }
 *.ztmar { margin-top: 0; }
 body.has-hf *.header-fleft {
