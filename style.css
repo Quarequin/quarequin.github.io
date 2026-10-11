@@ -22,7 +22,7 @@ code,pre,tt,kbd,samp {
 	font-size: 14px;
 }
 s,del { text-decoration: line-through; }
-hr { border-color: teal; }
+hr { border-color: blue; }
 ul li { color: white; }
 a:link, a:visited {
 	color: cyan;
@@ -40,8 +40,8 @@ a:active, a:hover {
 	image-rendering: crisp-edges;
 	image-rendering: pixelated;
 }*/
-dl { margin-bottom: 0px; }
-dl dd { margin-bottom: 15px; }
+dl.gap { margin-bottom: 0px; }
+dl.gap dd { margin-bottom: 15px; }
 #nav { margin-left: 0px; }
 #nav li,
 #nav li ul li { margin-bottom: 5px; }
@@ -56,15 +56,13 @@ object br:first-child { position: absolute; margin: -100% 0 0 -100%; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
 *.rmar { margin-right: 40px; }
 *.no-vmar { margin-top: 0; margin-bottom: 0; }
+
 *.ztmar { margin-top: 0; }
 body.has-hf *.header-fleft {
 	float: left;
 	margin: 5px 5px 5px 0;
 }
 body.has-hf *.header-bleft {
-	float: left;
-	width: 60%;
-	min-width: 370px;
 	margin: 5px 0;
 }
 hr.first { margin-top: 0; margin-bottom: 0; }
@@ -82,7 +80,7 @@ hr.hend { clear: both; margin-top: 0; }
 *.has-ascii-art *.ascii-norm { font-size: 6.48px; }
 *.has-ascii-art *.ascii-big { font-size: 11px; }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
 	body.has-hf .header-bleft {
 		clear: both;
 		width: 100%;
