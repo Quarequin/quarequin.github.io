@@ -22,7 +22,7 @@ code,pre,tt,kbd,samp {
 	font-size: 14px;
 }
 s,del { text-decoration: line-through; }
-hr { border-color: blue; }
+hr { border-color: teal; }
 ul li { color: white; }
 a:link, a:visited {
 	color: cyan;
@@ -67,8 +67,8 @@ body.has-hf *.header-bleft {
 }
 hr.first { margin-top: 0; margin-bottom: 0; }
 hr.hend { clear: both; margin-top: 0; }
-.hl { background-color: teal; }
-.no-ui {
+*.hl { background-color: teal; }
+*.no-ui {
 	font-size: 0px;
 	line-height: 0px;
 	position: absolute;
@@ -81,9 +81,8 @@ hr.hend { clear: both; margin-top: 0; }
 *.has-ascii-art *.ascii-big { font-size: 11px; }
 
 @media only screen and (max-width: 400px) {
-	body.has-hf .header-bleft {
+	body.has-hf *.header-bleft {
 		clear: both;
 		width: 100%;
-		min-width: 0;
 	}
 }

@@ -15,12 +15,7 @@
 		width: 114pt;
 		height: 100%;
 	}
-	body.has-nav #nav *.noind-desktop { margin-left: 0; }
-	*.noind-desktop {
-		margin: 0;
-		margin-left: -40px;
-		padding: 0;
-	}
+	*.noind-d { margin-left: 0; }
 }
 
 @media only screen and (min-width: 615px) {
