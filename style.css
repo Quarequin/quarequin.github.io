@@ -84,5 +84,6 @@ hr.hend { clear: both; margin-top: 0; }
 	body.has-hf *.header-bleft {
 		clear: both;
 		width: 100%;
+		word-break: break-all;
 	}
 }
