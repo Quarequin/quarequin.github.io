@@ -79,6 +79,7 @@ hr.hend { clear: both; margin-top: 0; }
 *.has-ascii-art *.ascii-mini { font-size: 5px; }
 *.has-ascii-art *.ascii-norm { font-size: 6.48px; }
 *.has-ascii-art *.ascii-big { font-size: 11px; }
+*.scaps { font-variant: small-caps; }
 
 @media only screen and (max-width: 400px) {
 	body.has-hf *.header-bleft {
