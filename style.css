@@ -5,7 +5,13 @@ body {
 	color: white;
 	margin: 0 auto;
 	padding: 6pt;
-	max-width: 1000px;
+}
+
+@supports (margin: 0 auto) {
+	body {
+		margin: 0 auto;
+		max-width: 1000px;
+	}
 }
 
 html,body {
