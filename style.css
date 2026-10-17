@@ -54,6 +54,7 @@ dl.gap dd { margin-bottom: 15px; }
 #nav li ul { margin-left: 40px; padding-left: 20px; }
 ul.noind, li.noind { margin-left: -40px; }
 ul.hind, li.hind { margin-left: -20px; }
+*.zmrk { list-style: none; }
 /*object.w112-h168 { width: 112px; height: 68px; }*/
 /*object.w64-h64 { width: 64px; height: 64px; }*/
 object { padding: 0; border-width: 0; }
