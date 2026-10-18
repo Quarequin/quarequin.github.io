@@ -14,6 +14,12 @@ body {
 	}
 }
 
+@media only screen and (min-width: 600px) {
+	@supports (margin: 0 auto) {
+		body { max-width: 600pt; }
+	}
+}
+
 html,body {
 	word-wrap: break-word;
 	font-family: ui-sans-serif, sans-serif;
