@@ -7,6 +7,15 @@ body {
 	padding: 6pt;
 }
 
+@supports (background-attachment: fixed) {
+	body.has-bg {
+		background-image: url("-/asset/pic/sbmstbg.gif");
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-attachment: fixed;
+	}
+}
+
 @supports (margin: 0 auto) {
 	body {
 		margin: 0 auto;
