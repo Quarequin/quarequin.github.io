@@ -9,7 +9,7 @@ body {
 
 @supports (background-attachment: fixed) {
 	body.has-bg {
-		background-image: url("-/asset/pic/sbmstbg.gif");
+		background-image: url("asset/pic/sbmstbg.gif");
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		background-attachment: fixed;
@@ -39,7 +39,12 @@ html,body {
 code,pre,tt,kbd,samp {
 	white-space: pre-wrap;
 	word-wrap: break-word;
-	font-family: ui-monospace, Monaco, monospace;
+	font-family:
+		'JetBrains Mono', 'Fira Code', 'Cascadia Code', 
+		Consolas, 'Courier New', 
+		Menlo, Monaco, 'SF Mono', 
+		'DejaVu Sans Mono', 'Liberation Mono', 'Ubuntu Mono', 
+		monospace;
 	font-size: 14px;
 }
 s,del { text-decoration: line-through; }
@@ -93,9 +98,13 @@ hr.hend { clear: both; margin-top: 0; }
 *.hl { background-color: teal; }
 *.no-ui {
 	font-size: 0px;
-	line-height: 0px;
+	line-height: 0;
 }
-*.has-ascii-art *.ascii-pic { white-space: pre; }
+*.has-ascii-art *.ascii-pic {
+	white-space: pre;
+	line-height: 1.0;
+	letter-spacing: 0;
+}
 *.has-ascii-art *.ct { text-align: center; }
 *.has-ascii-art *.ascii-mini { font-size: 5px; }
 *.has-ascii-art *.ascii-norm { font-size: 6.48px; }
