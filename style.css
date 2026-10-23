@@ -9,7 +9,7 @@ body {
 
 @supports (background-attachment: fixed) {
 	body.has-bg {
-		background-image: url("asset/pic/sbmstbg.gif");
+		background-image: url("-/asset/pic/sbmstbg.gif");
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		background-attachment: fixed;
@@ -56,6 +56,7 @@ a:link, a:visited {
 }
 a:active, a:hover {
 	color: lime;
+	text-decoration: underline;
 	text-decoration: underline dotted;
 }
 * object * {
@@ -98,7 +99,7 @@ hr.hend { clear: both; margin-top: 0; }
 *.hl { background-color: teal; }
 *.no-ui {
 	font-size: 0px;
-	line-height: 0;
+	line-height: 0px;
 }
 *.has-ascii-art *.ascii-pic {
 	white-space: pre;
