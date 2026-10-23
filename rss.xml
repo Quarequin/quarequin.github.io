@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 	<channel>
-		<title>QuareQuIn blog</title>
+		<title>Phat QuareQuIn</title>
 		<link>https://quarequin.github.io/</link>
 		<description>Hello, smile please! :)</description>
+		<image>
+			<url>https://quarequin.github.io/-/asset/pic/banner.gif</url>
+			<title>Phat QuareQuIn</title>
+			<link>https://quarequin.neocities.org</link>
+		</image>
 		<item>
 			<title>Contact link</title>
 			<link>quarequin.github.io/link.html</link>
