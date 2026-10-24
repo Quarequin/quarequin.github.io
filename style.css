@@ -39,12 +39,7 @@ html,body {
 code,pre,tt,kbd,samp {
 	white-space: pre-wrap;
 	word-wrap: break-word;
-	font-family:
-		'JetBrains Mono', 'Fira Code', 'Cascadia Code', 
-		Consolas, 'Courier New', 
-		Menlo, Monaco, 'SF Mono', 
-		'DejaVu Sans Mono', 'Liberation Mono', 'Ubuntu Mono', 
-		monospace;
+	font-family: ui-monospace, Monaco, monospace;
 	font-size: 14px;
 }
 s,del { text-decoration: line-through; }
