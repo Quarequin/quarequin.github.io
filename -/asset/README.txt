@@ -1,4 +1,4 @@
-the core asset of my page on this.
+the core asset for my personal page :)
 
 this page containing.
 
