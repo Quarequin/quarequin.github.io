@@ -1,0 +1,8 @@
+There is a my personal web asset.
+
+is this path has.
+/
+|- asset/    # the personal web asset
+|- gpg/      # my public key
+|- icons/    # badge of this personal web
+|- unused/   # my cached asset
