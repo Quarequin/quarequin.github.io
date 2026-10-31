@@ -10,11 +10,14 @@
 			<link>https://quarequin.github.io</link>
 		</image>
 		<item>
-			<title>Contact link</title>
-			<link>quarequin.github.io/link.html</link>
-			<guid>quarequin.github.io/link.html</guid>
+			<title>Hello smile please.</title>
 			<pubDate>Mon, 12 Oct 2026 11:58 UTC+7</pubDate>
-			<description>my external page.</description>
+			<description>Hello from Rss</description>
+			<content:encoded>
+				<![CDATA[
+					<p>hello from rss.</p>
+				]]>
+			</content:encoded>
 		</item>
 	</channel>
 </rss>
