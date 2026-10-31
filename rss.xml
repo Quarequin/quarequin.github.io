@@ -11,15 +11,14 @@
 		</image>
 		<item>
 			<title>Hello smile please.</title>
-			<pubDate>Sat, 31 Oct 2026 15:00 UTC+7</pubDate>
+			<pubDate>Sat, 31 Oct 2026 15:05 UTC+7</pubDate>
 			<link>https://quarequin.github.io</link>
 			<guid>https://quarequin.github.io/rss.xml</guid>
-			<description>Hello from Rss</description>
-			<content:encoded>
+			<description>
 				<![CDATA[
 					<p>hello from rss.</p>
 				]]>
-			</content:encoded>
+			</description>
 		</item>
 	</channel>
 </rss>
