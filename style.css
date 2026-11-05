@@ -44,7 +44,6 @@ code,pre,tt,kbd,samp {
 }
 s,del { text-decoration: line-through; }
 hr { border-color: teal; }
-ul li { color: white; }
 a:link, a:visited {
 	color: cyan;
 	text-decoration: underline;
@@ -99,7 +98,10 @@ hr.hend { clear: both; margin-top: 0; }
 *.has-ascii-art *.ascii-pic {
 	white-space: pre;
 	line-height: 1.0;
-	letter-spacing: 0;
+	letter-spacing: -1px;
+}
+*.has-ascii-art br:first-child {
+    display: none;
 }
 *.has-ascii-art *.ct { text-align: center; }
 *.has-ascii-art *.ascii-mini { font-size: 5px; }
