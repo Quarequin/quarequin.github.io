@@ -1,0 +1,68 @@
+
+@supports (background-attachment: fixed) {
+	body.has-bg {
+		background-image: url("-/asset/pic/sbmstbg.gif");
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-attachment: fixed;
+	}
+}
+
+@supports (margin: 0 auto) {
+	body {
+		margin: 0 auto;
+		max-width: 1000px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	@supports (margin: 0 auto) {
+		body.has-nav { max-width: 600pt; }
+	}
+	body.has-nav { padding-left: 125pt; }
+	body.has-nav *.desk-hidden {
+		position: absolute;
+		margin: -32768px 0 0 -32768px;
+	}
+	body.has-nav #nav {
+		position: absolute;
+		position: fixed;
+		top: 0;
+		padding: 6pt;
+		margin: 0;
+		margin-left: -126pt;
+		width: 114pt;
+		height: 100%;
+	}
+	*.noind-d { margin-left: 0; }
+}
+
+@media only screen and (min-width: 615px) {
+	body.has-nav { padding-left: 130pt; }
+	body.has-nav #nav { width: 119pt; margin-left: -131pt; }
+}
+
+@media only screen and (min-width: 630px) {
+	body.has-nav { padding-left: 135pt; }
+	body.has-nav #nav { width: 124pt; margin-left: -136pt; }
+}
+
+@media only screen and (min-width: 645px) {
+	body.has-nav { padding-left: 140pt; }
+	body.has-nav #nav { width: 129pt; margin-left: -141pt; }
+}
+
+@media only screen and (min-width: 660px) {
+	body.has-nav { padding-left: 145pt; }
+	body.has-nav #nav { width: 134pt; margin-left: -146pt; }
+}
+
+@media only screen and (min-width: 675px) {
+	body.has-nav { padding-left: 150pt; }
+	body.has-nav #nav { width: 139pt; margin-left: -151pt; }
+}
+
+@media only screen and (min-width: 690px) {
+	body.has-nav { padding-left: 155pt; }
+	body.has-nav #nav { width: 144pt; margin-left: -156pt; }
+}

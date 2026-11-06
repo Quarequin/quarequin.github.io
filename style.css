@@ -1,32 +1,10 @@
-@import "./styleres.css";
+@import "./exstyle.css";
 
 body {
 	background-color: navy;
 	color: white;
 	margin: 0 auto;
 	padding: 6pt;
-}
-
-@supports (background-attachment: fixed) {
-	body.has-bg {
-		background-image: url("-/asset/pic/sbmstbg.gif");
-		background-repeat: no-repeat;
-		background-position: 50% 50%;
-		background-attachment: fixed;
-	}
-}
-
-@supports (margin: 0 auto) {
-	body {
-		margin: 0 auto;
-		max-width: 1000px;
-	}
-}
-
-@media only screen and (min-width: 600px) {
-	@supports (margin: 0 auto) {
-		body.has-nav { max-width: 600pt; }
-	}
 }
 
 html,body {
@@ -85,9 +63,8 @@ body.has-hf *.header-fleft {
 	float: left;
 	margin: 5px 5px 5px 0;
 }
-body.has-hf *.header-bleft {
-	margin: 5px 0;
-}
+body *.tmar { margin: 5px 0 0 0; }
+body.has-hf *.header-bleft { margin: 5px 0; }
 hr.first { margin-top: 0; margin-bottom: 0; }
 hr.hend { clear: both; margin-top: 0; }
 *.hl { background-color: teal; }
