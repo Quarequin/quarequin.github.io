@@ -34,7 +34,7 @@
 		width: 114pt;
 		height: 100%;
 	}
-	*.noind-d { margin-left: 0; }
+	*.no-indent-wide { margin-left: 0; }
 }
 
 @media only screen and (min-width: 615px) {
