@@ -1,0 +1,12 @@
+
+html,body {
+	font-family: sans-serif;
+}
+
+code,pre,tt,kbd,samp {
+	font-family: Monaco, monospace;
+}
+
+hr {
+	border-color: teal;
+}
