@@ -1,4 +1,4 @@
-@import "./exstyle.css";
+@import "exstyle.css";
 
 body {
 	background-color: navy;
@@ -52,7 +52,7 @@ ul.half-indent, li.half-indent { margin-left: -20px; }
 /*object.size-64x64 { width: 64px; height: 64px; }*/
 object { padding: 0; border-width: 0; }
 object br:first-child, *.offscreen
-{ position: absolute; margin: -32768px 0 0 -32768px; }
+{ display: none; position: absolute; margin: -32768px 0 0 -32768px; }
 * p#webmark { margin: 0; padding: 0; }
 * p#webmark * { padding: 0 5px 0 0; margin: 0; }
 *.mr-40 { margin-right: 40px; }
@@ -86,7 +86,7 @@ hr.hr-end { clear: both; margin-top: 0; }
 *.ascii-art *.ascii-lg { font-size: 11px; }
 *.small-caps { font-variant: small-caps; }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 475px) {
 	body.has-hdr *.header-text {
 		clear: both;
 		width: 100%;
